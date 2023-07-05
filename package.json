@@ -2,13 +2,15 @@
   "name": "portifolio",
   "private": true,
   "version": "1.0.0",
-  "homepage": "./",
+  "homepage": "https://euamovcce.github.io/portifolio-lucas-prado",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
