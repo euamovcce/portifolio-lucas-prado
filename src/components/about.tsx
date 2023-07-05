@@ -11,7 +11,7 @@ export function About() {
                 I am constantly seeking new opportunities for growth and expansion in the web development field. Currently, I am focused on enhancing my skills in ReactJs, NextJs, TypeScript, and other tools that drive web development.
             </p>
             <p>
-                If you would like a more detailed overview of my experience and skills, I invite you to visit my LinkedIn <a className="underline" href="https://www.linkedin.com/in/lucas-praado/">profile</a>.
+                If you would like a more detailed overview of my experience and skills, I invite you to visit my LinkedIn <a className="underline" href="https://www.linkedin.com/in/lucas-praado/" target="_blank">profile</a>.
             </p>
         </section>
     )
